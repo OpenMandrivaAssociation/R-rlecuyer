@@ -2,13 +2,13 @@
 %global rlibdir  %{_libdir}/R/library
 
 Name:             R-%{packname}
-Version:          0.3_2
+Version:          0.3_3
 Release:          1
 Summary:          R interface to RNG with multiple streams
 Group:            Sciences/Mathematics
 License:          GPL (>= 2)
-URL:              http://cran.r-project.org/web/packages/rlecuyer/index.html
-Source0:          http://cran.r-project.org/src/contrib/Archive/rlecuyer/rlecuyer_0.3-2.tar.gz
+URL:              http://cran.r-project.org/web/packages/%{packname}/index.html
+Source0:          http://cran.r-project.org/src/contrib/%{packname}_0.3-3.tar.gz
 BuildRequires:    R-devel Rmath-devel texlive-collection-latex 
 
 %description
@@ -23,7 +23,6 @@ random number generator in parallel R applications.
 %build
 
 %install
-rm -rf %{buildroot}
 mkdir -p %{buildroot}%{rlibdir}
 %{_bindir}/R CMD INSTALL -l %{buildroot}%{rlibdir} %{packname}
 test -d %{packname}/src && (cd %{packname}/src; rm -f *.o *.so)
