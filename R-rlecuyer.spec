@@ -7,7 +7,7 @@ Release:          1
 Summary:          R interface to RNG with multiple streams
 Group:            Sciences/Mathematics
 License:          GPL (>= 2)
-URL:              None
+URL:              http://cran.r-project.org/web/packages/rlecuyer/index.html
 Source0:          http://cran.r-project.org/src/contrib/Archive/rlecuyer/rlecuyer_0.3-2.tar.gz
 BuildRequires:    R-devel Rmath-devel texlive-collection-latex 
 
