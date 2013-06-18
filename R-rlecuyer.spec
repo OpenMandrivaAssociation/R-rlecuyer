@@ -3,7 +3,7 @@
 
 Name:             R-%{packname}
 Version:          0.3_3
-Release:          1
+Release:          2
 Summary:          R interface to RNG with multiple streams
 Group:            Sciences/Mathematics
 License:          GPL (>= 2)
