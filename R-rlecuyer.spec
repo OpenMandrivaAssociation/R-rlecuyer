@@ -7,7 +7,7 @@ Release:          3
 Summary:          R interface to RNG with multiple streams
 Group:            Sciences/Mathematics
 License:          GPL (>= 2)
-URL:              http://cran.r-project.org/web/packages/%{packname}/index.html
+URL:              https://cran.r-project.org/web/packages/%{packname}/index.html
 Source0:          http://cran.r-project.org/src/contrib/%{packname}_0.3-3.tar.gz
 BuildRequires:    R-devel Rmath-devel texlive-collection-latex 
 
